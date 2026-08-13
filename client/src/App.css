@@ -1,0 +1,21 @@
+/* App level layouts */
+.main-content {
+  flex: 1 0 auto;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.auth-container {
+  max-width: 450px;
+  margin: 2rem auto;
+}
+
+.dashboard-stat-card {
+  border-left: 4px solid var(--primary-color);
+}
+
+.table-responsive {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  background: white;
+}
